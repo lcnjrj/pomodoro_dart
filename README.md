@@ -3,6 +3,8 @@
 Um aplicativo simples de **Pomodoro Timer** desenvolvido em **Dart**, criado para praticar conceitos de programação assíncrona, tratamento de erros e orientação a objetos.
 O projeto ajuda a organizar sessões de estudo ou trabalho, aplicando a técnica Pomodoro (25 minutos de foco + 5 minutos de pausa).
 
+Projeto feito durante imersão digital mobile Alura.
+Dart Caracteristicas: async await Future if else stout
 ---
 
 ## 🚀 Funcionalidades
