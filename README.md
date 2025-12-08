@@ -2,6 +2,7 @@
 
 Um aplicativo  **Pomodoro Timer** desenvolvido em **Dart**, criado para praticar conceitos de programação assíncrona, tratamento de erros e orientação a objetos.
 O projeto ajuda a organizar sessões de estudo ou trabalho, aplicando a técnica Pomodoro (25 minutos de foco + 5 minutos de pausa).
+Este projeto demonstra princípios de código limpo, programação orientada a objetos em Dart e design de interação baseado em terminal.
 
 Projeto feito durante imersão digital mobile Alura.
 Dart Caracteristicas: async await Future if else stout
@@ -25,22 +26,6 @@ Dart Caracteristicas: async await Future if else stout
 - **Null Safety**
 - **Git/GitHub** para versionamento
 
----
-
-## 📂 Estrutura do Projeto
-
-pomodoro_dart/
-├── lib/
-│ ├── main.dart # Arquivo principal
-│ ├── timer.dart # Lógica de contagem regressiva
-│ └── session.dart # Configuração de ciclos Pomodoro
-├── test/
-│ └── pomodoro_test.dart  # Testes unitários
-└── README.md
-
-📋 Sobre o Projeto
-O Timer Pomodoro é uma aplicação de linha de comando construída com Dart que ajuda a aumentar a produtividade usando a Técnica Pomodoro - um método de gerenciamento de tempo que divide o trabalho em intervalos focados (tipicamente 25 minutos) separados por pausas curtas.
-Este projeto demonstra princípios de código limpo, programação orientada a objetos em Dart e design de interação baseado em terminal.
 🎯 O que é a Técnica Pomodoro?
 
 Trabalhe por 25 minutos (1 Pomodoro)
@@ -55,19 +40,6 @@ Dart SDK (3.0 ou superior)
 
 Verifique se o Dart está instalado:
 bashdart --version
-Instalação
-
-
-## ▶️ Como executar
-1. Clone o repositório:
-```bash
-git clone https://github.com/lcnjrj/pomodoro_dart.git
-cd pomodoro_dart
-
-Clone o repositório
-
-bash   git clone https://github.com/lcnjrj/pomodoro_dart.git
-   cd pomodoro_dart
 
 Execute a aplicação
 
