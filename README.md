@@ -5,7 +5,9 @@ O projeto ajuda a organizar sessões de estudo ou trabalho, aplicando a técnica
 
 Projeto feito durante imersão digital mobile Alura.
 Dart Caracteristicas: async await Future if else stout
----
+
+![Print](https://github.com/lcnjrj/pomodoro_dart/blob/main/pomodoro.jpg)
+
 
 ## 🚀 Funcionalidades
 - Configuração de ciclos de foco e descanso.
