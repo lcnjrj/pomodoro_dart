@@ -69,43 +69,13 @@ bash   git clone https://github.com/lcnjrj/pomodoro_dart.git
 
 Execute a aplicação
 
-bash   dart run bin/pomodoro_dart.dart
+bash   dart run ./pomodoro.dart
 
 
 💻 Uso
 Uso Básico
 Execute o timer com configurações padrão (25min trabalho, 5min pausa):
 bashdart run bin/pomodoro_dart.dart
-Durações Personalizadas
-Defina tempos customizados de trabalho e pausa:
-bashdart run bin/pomodoro_dart.dart --trabalho 45 --pausa-curta 10 --pausa-longa 20
-Opções de Linha de Comando
-Opções:
-  -t, --trabalho <minutos>       Duração da sessão de trabalho (padrão: 25)
-  -c, --pausa-curta <minutos>    Duração da pausa curta (padrão: 5)
-  -l, --pausa-longa <minutos>    Duração da pausa longa (padrão: 15)
-  -n, --ciclos <número>          Pomodoros antes da pausa longa (padrão: 4)
-  -h, --help                     Mostra esta mensagem de ajuda
-Controles Interativos
-Enquanto o timer estiver rodando:
-
-p - Pausar/Retomar
-s - Pular sessão atual
-r - Resetar timer
-q - Sair da aplicação
-
-
-🎨 Exemplo de Saída
-╔══════════════════════════════════════╗
-║     🍅 TIMER POMODORO - DART 🍅      ║
-╚══════════════════════════════════════╝
-
-Sessão 1/4 - SESSÃO DE TRABALHO
-⏱️  25:00 restantes
-
-[████████████████████░░░░░░] 80%
-
-Pressione 'p' para pausar, 's' para pular, 'q' para sair
 
 🎓 Principais Aprendizados
 Construir este projeto me ensinou:
@@ -120,7 +90,7 @@ Construir este projeto me ensinou:
 
 🐛 Problemas Conhecidos & Roadmap
 Limitações Atuais
-
+ Sem personalização
  Notificações sonoras funcionam apenas em Linux/macOS (suporte Windows necessário)
  Sem persistência (histórico de sessões não é salvo entre execuções)
  Customização limitada de cores da UI
